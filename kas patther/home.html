@@ -1,0 +1,79 @@
+<html>
+<head>
+<title>kas patther page  </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="home.css" ></link>
+</head>
+<body>
+<div id="homepage">  
+<div id="logo">
+<img src="logo.img" alt="logo img"></img>
+</div>
+<div id="menu">
+                <ul class="topnav-right">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="#aboutPage">About</a></li>
+                    <li><a href="#around kas">Around Kas</a></li>
+                    <li><a href="flower.html">Flower Gallery</a></li>
+                    <li><a href="#contact">Contact </a></li>
+					 <li><a href="#booking">Booking </a></li>
+                </ul>
+            </div>
+			<div id="homemark">
+			<marquee clwidth="100%" direction="left" height="40px"style="align:right;background-color:#F9ED32;">
+             <h4 class="h4"> 
+				    कास पठारावर फुलांचा बहर येण्यास सुरवात झाली आहे. फुलांचा बहर सध्या कमी आहे, सध्या चवर, सीतेची आसवे, आभाळी, तेरडा ही फुले बहरू लागली आहेत. कास पठारावरील फुलांचा
+					आकार हा नखापेक्षा लहान असतो.  फुलांचा बहर पूर्णता पाऊस, ऊन, वातावरणातील गारवा या नैसर्गिक घटकांवर अवलंबून आहे व त्यामध्ये सतत्याने बदल घडत असतो.  बहराबाबत 
+					कर्मचारीवृंदाशी वाद घालू नये..  कास पठारावर फिरण्यासाठी सायकल्स भाडे तत्वावर उपलब्ध आहेत. दर. रु.50/- प्रति तास (डिपॉझिट आवश्यक)..  कास पुष्प पठार पहावयास येणाऱ्या 
+					पर्यटकांसाठी कास परिसर दर्शन बससेवा पठारावरील पार्किंगपासून सुरु आहे.  पार्किंग पासून कास पठारावर जाण्यासाठी वीस रुपये रिटर्न तिकीट....अधिक माहितीसाठी येथे click करा. 
+				    </h4>
+          </marquee>
+		   <marquee width="100%" direction="right" height="30px"style=" align:right;background-color:#0a573b;color:white;">
+		   <b class="b">  The size of the flower is smaller than the nail. The full bloom of the flower depends on the natural 
+		   factors like rain, heat, humidity and it is constantly changing. Don't argue with the staff...***The
+		   Parking charges for car parking is Rs.20 and for bus parking is Rs. 50.  
+          </b>
+		   </marquee>
+		   </div>
+		   <br>
+		   <br>
+		   <div class="w3-content w3-display-container"style="max-width:300%>
+  <img class="mySlides" src="kas1.img" style="width:100%">
+  <img class="mySlides" src="kas2.img" style="width:100%">
+  <img class="mySlides" src="kas3.img" style="width:100%">
+  
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<script>
+var slideIndex =1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

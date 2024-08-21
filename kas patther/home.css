@@ -1,0 +1,74 @@
+*{
+	 margin: 0px;
+    padding: 0px;
+}
+
+#menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 30px 20px 30px;
+    
+}
+#logo{
+    height: 70px;
+    width:15%;
+    background-color: #F8FAFF;
+    clear: both;
+    float: left;
+	animation-name: fadeInDownBig;
+}
+#menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+#menu li:hover{
+    background-color: lightseagreen;
+}
+#menu li a:hover{
+    background-color: lightseagreen;
+	color: white;
+}
+.topnav-right{
+	float:right;
+}
+body
+{
+      background-color:#F8FAFF;
+	  position: relative;
+}
+#homemark marquee{
+   margin-top:50px;
+	
+}
+.h4{
+    
+	font-size:20px;
+	
+}
+homemark b{
+	padding-top:3px;
+	 padding-bottom:30px;
+	font-size:30px;
+}
+.w3-content w3-display-container{
+	height:120%;
+	width:100%;
+	position: absolute;
+	left:0px;
+}
+.mySlides{
+	height:80%;
+	width:100%;
+	
+}
+.w3-button w3-black w3-display-left{
+	max-width:50%;
+	height:20%;
+	
+}
+.w3-button w3-black w3-display-right{
+	
+}
