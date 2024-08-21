@@ -1,0 +1,369 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+}
+#homePage{
+    width: 100%;
+    height: 630px;
+}
+#icon{
+    height: 80px;
+    width: 20%;
+    background-color: black;
+    clear: both;
+    float: left;
+}
+#menu{
+    height: 80px;
+    width: 60%;
+    background-color: black;
+    float: left;
+}
+#signInButton{
+    height: 80px;
+    width: 20%;
+    background-color: black;
+    float: left;
+}
+#signInButton #signInBtn{
+    position: relative;
+    background-color: lightseagreen;
+    padding: 2px 5px 2px 5px;
+    margin: auto;
+    top: 20px;
+    left: 30px;
+    align-items: center;
+    border: 1px solid lightseagreen;
+    border-radius: 20px;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+
+
+}
+#homePage #icon img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 15px;
+    left: 80px;
+} 
+#menu ul{
+
+}
+#menu li{
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 30px 20px 30px;
+    
+}
+#menu li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    
+}
+#menu li:hover{
+    background-color: lightseagreen;
+}
+#menu li a:hover{
+    background-color: lightseagreen;
+}
+#homeImage{
+    width: 100%;
+    height: 610px;
+    background-image: url("main_car.jpg");
+    background-repeat:round;
+    text-align: center;
+    /*background-repeat:no-repeat;
+    background-size:cover;*/
+}
+#homeImage h1{
+    position: relative;
+    font-size: 100px;
+    color: white;
+    top: 60px;
+}
+#homeImage p{
+    position: relative;
+    color: white;
+    top: 70px;
+
+}
+a{
+    text-decoration: none;
+}
+#getStartedLink{
+    position: relative;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border: 1px solid lightseagreen;
+    padding: 8px 15px 8px 15px;
+    color: black;
+    text-align:center;
+    font-size: 15px;
+    top: 80px;
+    font-weight: 500;
+}
+#aboutPage{
+    background-color: black;
+    position: relative;
+}
+.pagebox{
+    width:100%; height: 625px;
+}
+.box{
+    position: relative;
+    width: 40%;
+    height: 340px;
+    top: 140px;
+    left: 100px;
+}
+#infoSection{
+    position: relative;
+    float: left;
+}
+#imageSection{
+    position: relative;
+    float: left;
+}
+#aboutPageImage{
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#aboutPage #infoSection h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:lightseagreen ;
+    text-transform: uppercase;
+
+}
+#aboutPage #infoSection h3{
+    color: white;
+    font-size: 50px;
+}
+#aboutPage #infoSection p{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 30px
+}
+#aboutPage #leanMore{
+    position: relative;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border: 1px solid lightseagreen;
+    padding: 8px 15px 8px 15px;
+    color: black;
+    text-align:center;
+    font-size: 15px;
+    top: 20px;
+    font-weight: 500;
+}
+#aboutPage #infoSection h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:lightseagreen ;
+    text-transform: uppercase;
+
+}
+#learnMore h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:lightseagreen ;
+    text-transform: uppercase;
+
+}
+#learnMore h3{
+    color: black;
+    font-size: 50px;
+}
+#learnMore  p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 30px
+}
+#learnMore #leanMorebtn{
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    text-align:center;
+    font-size: 15px;
+    top: 20px;
+    font-weight: 500;
+}
+#products{
+    text-align: center;
+    width: 100%;
+    height: 630px;
+    background-color: black;
+}
+#products p{
+    position: relative;
+    color:#f5c71a;
+    font-size: 25px;
+    top: 70px;
+    padding-right: 30px
+}
+#productCatlog{
+    width: 80%;
+    height: 300px;
+    position: relative;
+    background-color: black;
+    top: 100px;
+    margin-left:330px ;
+}
+#products #moreProductbtn{
+    position: relative;
+    background-color: lightseagreen;
+    border-radius: 20px;
+    border: 1px solid lightseagreen;
+    padding: 8px 15px 8px 15px;
+    color: black;
+    text-align:center;
+    font-size: 15px;
+    top: 20px;
+    font-weight: 500;
+    top: 140px;
+    margin-top: 50px;
+}
+#productCatlogInfo1{
+    width: 20%;
+    height: 280px;
+    background-color: white;
+    float: left;
+    border-radius: 7px;
+}
+#productCatlogInfo2{
+    width: 20%;
+    height: 280px;
+    background-color:white;
+    float: left;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+#productCatlogInfo3{
+    width: 20%;
+    height: 280px;
+    background-color: white;
+    float: left;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+#products #productCatlog .newCarImage{
+    width: 65%;
+    position: relative;
+    top: 25px;
+}
+#products #productCatlog .newCarHeading{
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: 60px;
+}
+#products #productCatlog .newCarParagraph{
+    color: black;
+    font-size: 12px;
+    padding: 2px 10px 2px 10px;
+
+}
+
+#contactOurTeam{
+    background-color: white;
+}
+
+#contactOurTeam h5{
+    font-size: 20px;
+    font-weight: 500;
+    color:lightseagreen ;
+    text-transform: uppercase;
+
+}
+#contactOurTeam h3{
+    color: black;
+    font-size: 50px;
+}
+#contactOurTeam  p{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+    padding-right: 50px;
+}
+#contactOurTeam #contact{
+    position: relative;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 8px 15px 8px 15px;
+    color: white;
+    text-align:center;
+    font-size: 15px;
+    top: 20px;
+    font-weight: 500;
+}
+#contactFrom{
+    background-color: black;
+}
+#contactFrom p, #getInTouch p{
+    position: relative;
+    color:lightseagreen;
+    font-size: 25px;
+    top: 70px;
+    text-align:center;
+}
+#getInTouch{
+    background-color: black;
+}
+#getInTouch .inputBox{
+    display: block;
+    padding: 8px;
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+}
+#getInTouch #msg{
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    display: block;
+}
+#getInTouch #sendMsg{
+    display: block;
+    padding: 8px 25px 8px 25px;
+    border-radius: 5px;
+    color: white;
+    background-color: aqua;
+
+}
+#contactFrom #infoSection p{
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 50px;
+    margin-left: 40px;
+    border-radius: 5px;
+    padding: 8px;
+    text-align: left ;
+}
+svg{
+    color: lightseagreen;
+    margin-right: 10px;
+    padding: 1px;
+}
